@@ -1,3 +1,7 @@
 var mongoosegen = require('./lib/mongoose-gen.js');
 
-mongoosegen('localhost');
+var host = 'localhost';
+var collection = '';
+var port = '';
+
+mongoosegen('mongodb://' + host + '/' + collection);
