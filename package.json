@@ -1,9 +1,12 @@
 {
-	"name":"mongoose-gen",
-	"version":"0.0.1",
-	"repository": {
-    "type": "git",
-    "url": "git://github.com/marko-ciric/mongoose-generators",
-    "description": "ES6 generator wrapper for mongoose library"
-  }
+    "name": "mongoose-gen",
+    "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "mongoose": "3.8.5",
+        "mocha": "1.17.1"
+    }
 }

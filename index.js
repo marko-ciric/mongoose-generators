@@ -1,1 +1,3 @@
-exports = module.exports = require('./lib/mongoose-gen.js');
+var mongoosegen = require('./lib/mongoose-gen.js');
+
+mongoosegen();
